@@ -1,0 +1,81 @@
+/* src/index.css */
+
+/* General App Styling */
+.app-container {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  padding: 20px;
+  background-color: #f0f0f0;
+  color: #333;
+}
+h1 {
+  color: #444;
+}
+
+/* Movie Card Styling */
+.movie-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 20px;
+  width: 250px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.movie-poster {
+  width: 100%;
+  border-radius: 8px;
+}
+.movie-rating {
+  color: #f39c12;
+  font-weight: bold;
+}
+
+/* Movie List Styling */
+.movie-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Filter Component Styling */
+.filter-container {
+  margin-bottom: 20px;
+}
+.filter-container input {
+  padding: 10px;
+  margin-right: 10px;
+}
+.filter-container button {
+  padding: 10px 20px;
+  background-color: #27ae60;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.filter-container button:hover {
+  background-color: #2ecc71;
+}
+
+/* Add Movie Form Styling */
+.add-movie-form {
+  margin: 20px;
+}
+.add-movie-form input {
+  display: block;
+  width: 60%;
+  padding: 10px;
+  margin: 10px auto;
+}
+.add-movie-form button {
+  padding: 10px 20px;
+  background-color: #2980b9;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.add-movie-form button:hover {
+  background-color: #3498db;
+}
